@@ -1,0 +1,23 @@
+2025-10-14 16:24:21 [main] INFO  com.ui.listerners.TestListener - Test started
+2025-10-14 16:24:28 [main] INFO  com.ui.listerners.TestListener - loginXlsxTest
+2025-10-14 16:24:28 [main] INFO  com.ui.listerners.TestListener - Verify with the valid user is able to login into application using XLSX data
+2025-10-14 16:24:28 [main] INFO  com.ui.listerners.TestListener - [e2e, sanity]
+2025-10-14 16:24:31 [main] INFO  com.ui.listerners.TestListener - loginXlsxTest PASSES
+2025-10-14 16:24:36 [main] INFO  com.ui.listerners.TestListener - loginXlsxTest
+2025-10-14 16:24:36 [main] INFO  com.ui.listerners.TestListener - Verify with the valid user is able to login into application using XLSX data
+2025-10-14 16:24:36 [main] INFO  com.ui.listerners.TestListener - [e2e, sanity]
+2025-10-14 16:24:38 [main] WARN  com.ui.listerners.TestListener - loginXlsxTest SKIPPED
+2025-10-14 16:24:43 [main] INFO  com.ui.listerners.TestListener - loginXlsxTest
+2025-10-14 16:24:43 [main] INFO  com.ui.listerners.TestListener - Verify with the valid user is able to login into application using XLSX data
+2025-10-14 16:24:43 [main] INFO  com.ui.listerners.TestListener - [e2e, sanity]
+2025-10-14 16:24:46 [main] WARN  com.ui.listerners.TestListener - loginXlsxTest SKIPPED
+2025-10-14 16:24:51 [main] INFO  com.ui.listerners.TestListener - loginXlsxTest
+2025-10-14 16:24:51 [main] INFO  com.ui.listerners.TestListener - Verify with the valid user is able to login into application using XLSX data
+2025-10-14 16:24:51 [main] INFO  com.ui.listerners.TestListener - [e2e, sanity]
+2025-10-14 16:24:54 [main] WARN  com.ui.listerners.TestListener - loginXlsxTest SKIPPED
+2025-10-14 16:24:59 [main] INFO  com.ui.listerners.TestListener - loginXlsxTest
+2025-10-14 16:24:59 [main] INFO  com.ui.listerners.TestListener - Verify with the valid user is able to login into application using XLSX data
+2025-10-14 16:24:59 [main] INFO  com.ui.listerners.TestListener - [e2e, sanity]
+2025-10-14 16:25:01 [main] ERROR com.ui.listerners.TestListener - loginXlsxTest Failed
+2025-10-14 16:25:01 [main] ERROR com.ui.listerners.TestListener - expected [Sujani Wijesundera] but found [Sign in]
+2025-10-14 16:25:01 [main] INFO  com.ui.listerners.TestListener - Test Finished
