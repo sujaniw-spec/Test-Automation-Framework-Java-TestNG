@@ -40,7 +40,7 @@ public class TestBase {
 		
 		else {//Running test on local machine
 		logger.info("Load the Homepage setup");
-		//homePage = new HomePage(CHROME);
+		//homePage = new HomePage(CHROME);		
 		HomePage homePage = new HomePage(Browser.valueOf(browser.toUpperCase()),isHeadless);
         homePageThreadLocal.set(homePage);
 		}

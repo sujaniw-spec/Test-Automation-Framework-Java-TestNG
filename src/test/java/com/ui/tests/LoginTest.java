@@ -8,6 +8,7 @@ import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import com.ui.pages.HomePage;
+import com.ui.pages.MyAccountPage;
 import com.ui.pojo.User;
 import com.utilitiy.BrowserUtility;
 import com.utilitiy.LoggerUtility;
@@ -40,8 +41,14 @@ public class LoginTest extends TestBase{
 //		assertEquals(homePage.goToLoginPage().doLoginWith("yopes21588@gddcorp.com", "password")
 //				.getUserName(),"Sujani Wijesundera");	
 //		
-		
-		assertEquals(homePage.goToLoginPage().doLoginWith(user.getEmailAddress(), user.getPassword()).getUserName()
+		MyAccountPage myAccount = homePage.goToLoginPage().doLoginWith(user.getEmailAddress(), user.getPassword());
+	/*	try {
+			Thread.sleep(4000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}*/
+		assertEquals(myAccount.getUserName()
 				,"Sujani Wijesundera");	
 			
 	}

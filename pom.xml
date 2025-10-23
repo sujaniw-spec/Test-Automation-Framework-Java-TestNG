@@ -17,8 +17,8 @@
           </suiteXmlFiles>
           
           <systemPropertyVariables>
-            <browser>browser</browser>     
-            <isLambdaTest>chrome</isLambdaTest>          
+            <browser>chrome</browser>     
+            <isLambdaTest>false</isLambdaTest>          
             <isHeadless>true</isHeadless>
           </systemPropertyVariables>
           
