@@ -174,7 +174,10 @@ public abstract class BrowserUtility {
 
 	public String takeScreenshot(String methodName) {
 	    String timestamp = new SimpleDateFormat("yyyyMMdd_HHmmss").format(new Date());
-	    String filePath = System.getProperty("user.dir") + "/screenshots/" + methodName + "_" + timestamp + ".png";
+	   // String filePath = System.getProperty("user.dir") + "/screenshots/" + methodName + "_" + timestamp + ".png";
+	   
+	    String filePath = "./screenshots/" + methodName + "_" + timestamp + ".png";
+		   
 	    File src = ((TakesScreenshot) getDriver()).getScreenshotAs(OutputType.FILE);
 	    File dest = new File(filePath);
 	    try {

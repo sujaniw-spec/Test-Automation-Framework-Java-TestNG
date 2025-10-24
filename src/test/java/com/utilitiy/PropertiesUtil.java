@@ -13,7 +13,9 @@ public class PropertiesUtil {
 	
 	public static String readProperites(Env env, String propertyName) {
 		
-		File propFile = new File(System.getProperty("user.dir")+"\\config\\"+env+".properties");//Project stating path
+		//File propFile = new File(System.getProperty("user.dir")+"\\config\\"+env+".properties");//Project stating path
+		File propFile = new File(System.getProperty("user.dir")+"//config//"+env+".properties");//Project stating path
+		
 		FileReader fileReader;
 		Properties properties = new Properties();
 		
