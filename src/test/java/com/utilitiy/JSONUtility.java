@@ -16,7 +16,10 @@ public class JSONUtility {
 		// TODO Auto-generated method stub
 
 		Gson gson = new Gson();
-		File jsonFile = new File(System.getProperty("user.dir")+"\\config\\config.json");//Project stating path
+		//File jsonFile = new File(System.getProperty("user.dir")+"\\config\\config.json");//Project stating path
+		
+		File jsonFile = new File("config/config.json");//Project stating path
+		
 		FileReader fileReader = null;
 		try {
 			fileReader = new FileReader(jsonFile);
