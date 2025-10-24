@@ -6,7 +6,9 @@
                 pattern="%d{yyyy-MM-dd HH:mm:ss} [%t] %-5level %logger{36} - %msg%n"/>
         </Console>
 
-        <File name="FileLogger" fileName="C:\\Jatin-tutorial\\automation-assignment\\logs\\automation.log" append="false">
+        <!-- <File name="FileLogger" fileName="C:\\Jatin-tutorial\\automation-assignment\\logs\\automation.log" append="false">
+         -->    
+           <File name="FileLogger" fileName="logs/automation.log" append="false">   
             <PatternLayout
                 pattern="%d{yyyy-MM-dd HH:mm:ss} [%t] %-5level %logger{36} - %msg%n"/>
         </File>
